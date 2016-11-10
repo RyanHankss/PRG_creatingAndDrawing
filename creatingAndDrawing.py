@@ -70,11 +70,11 @@ def draw_circle(win, cir, color):
 canvas = world.ca(width=500, height=500, background='white')
 
 re = Rectangle()
-re.width = 300
-re.height = 200
-re.corner = Point()
-re.corner.x = -150
-re.corner.y = -100
+re.width = 250
+re.height = 300
+re.corner = Print()
+re.corner.x = 50
+re.corner.y = -30
 
 draw_rectangle(canvas, re, 'blue')
 
